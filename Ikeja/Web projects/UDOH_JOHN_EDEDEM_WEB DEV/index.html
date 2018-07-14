@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="Ibibio Gallery is a cultural showpiece that reflects the Ibibio tribe situated in Akwa Ibom, Nigeria">
+    <meta name="keywords" content="Ibbio people, Culture, Efik, Akwa Ibom, Gallery">
+    <meta name="author" content="John udoh">
+    
+    <title>Ibibio Gallery | Welcome</title>
+
+    
+
+    <link rel="stylesheet" title="text/css" href="css/css.css">
+    <script src="js/script.js"></script>
+</head>
+
+<body>
+  
+    <header>
+        <div class="container">
+          <div id="logo">
+            <h1><span class="highlight">Ibibio</span>Gallery</h1>
+          </div>
+
+          <nav>
+            <ul>
+              <li class="current"><a href="index.html">Gallery</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="videos.html">Videos</a></li>
+              <li><a href="LoginForm/indexform.html">Sign Up</a></li>
+            </ul>
+          </nav>
+      </div>
+          
+    </header>
+    <section>
+        <!-- The grid: four columns -->
+            <div class="row">
+                  <div class="column">
+                    <img src="img1/Ibibio1.jpg" alt="Nature" onclick="openImg(this);">
+                    <h5>Women</h5>
+                  </div>
+                  <div class="column">
+                    <img src="img1/ibibio5.jpg" alt="Snow" onclick="openImg(this);">
+                    <h5>Masqurades</h5>
+                  </div>
+                  <div class="column">
+                    <img src="img1/ibibio3.jpg" alt="Mountains" onclick="openImg(this);">
+                    <h5>Designs</h5>
+                  </div>
+                  <div class="column">
+                    <img src="img1/ibibio9.jpg" alt="Lights" onclick="openImg(this);">
+                    <h5>Children</h5>
+                  </div>
+            </div>
+
+             <div class="row">
+                  <div class="column">
+                    <img src="img1/Ibibio7.jpg" alt="Nature" onclick="openImg(this);">
+                    <h5>Foods</h5>
+                  </div>
+                  <div class="column">
+                    <img src="img1/Ibibio8.png" alt="Snow" onclick="openImg(this);">
+                     <h5>Style</h5>
+                  </div>
+                  <div class="column">
+                    <img src="img1/ibibio11.jpg" alt="Mountains" onclick="openImg(this);">
+                    <h5>Marriage</h5>
+                  </div>
+                  <div class="column">
+                    <img src="img1/ibibio4.jpg" alt="Lights" onclick="openImg(this);">
+                    <h5>Dancers</h5>
+                  </div>
+            </div>
+
+             <div class="row">
+                  <div class="column">
+                    <img src="img1/ibibio12.jpg" alt="Nature" onclick="openImg(this);">
+                    <h5>Mask</h5>
+                  </div>
+                  <div class="column">
+                    <img src="img1/ibibio15.jpg" alt="Snow" onclick="openImg(this);">
+                    <h5>Ekpo</h5>
+                  </div>
+                  <div class="column">
+                    <img src="img1/ibibio13.jpg" alt="Mountains" onclick="openImg(this);">
+                    <h5>Mud House</h5>
+                  </div>
+                  <div class="column">
+                    <img src="img1/ibibio16.jpg" alt="Lights" onclick="openImg(this);">
+                    <h5>Men</h5>
+                  </div>
+            </div>
+
+            <!-- The expanding image container -->
+                <div class="contain">
+                  <!-- Close the image -->
+                  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+
+                  <!-- Expanded image -->
+                  <img id="expandedImg" style="width:100%">
+
+                  <!-- Image text -->
+                  <div id="imgtext"></div>
+                </div>
+
+    </section>
+
+    <section id="newsletter">
+      <div class="container">
+        <h1>Subscribe To Our Newsletter</h1>
+        <form>
+          <input type="email" placeholder="Enter Email...">
+          <button type="submit" class="button_1">Subscribe</button>
+
+        </form>
+      </div>
+    </section>
+
+    
+
+    <footer>
+        <p>Ibibio Gallery, Copyright &copy; 2018</p>
+
+    </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,96 @@
+body{background-color:white; margin:0px;height:auto; color:black;}
+
+
+header{font-family:century,calibri,consolas;
+	background-color:#ff0099;
+	color:white; font-size:19px;
+   border-radius:10px;
+height:70px;width:100%;}
+#header-image{margin:5px;float:left;
+margin-left: 25px; border:2px solid white; border-radius:10px;}
+
+nav{background-color:#ff0099;
+:1px solid green;
+color: yellow; 
+ width:100%;border-radius:5px;
+ height:auto; font-family:century;
+ }
+ul li{display:inline;margin-left: 20px;
+text-decoration:none;}
+ul li:hover{font-size:30px;color: yellow;}
+
+#search{float:left;margin-left:890px;}
+   
+section{color:black;margin-right:1px;
+float:left; width:70.4%;
+height:400px;border-right:1px solid black;
+font-family:century;
+background-color:#ffffff;}
+
+#image{float:left; margin-left:160px;
+box-shadow: 1px 2px 2px 2px grey;
+background-color:#ffffff;
+border:1px solid #ff0099 ;
+margin-top:40px;height:40px;
+width:100px;text-align:center;
+border-radius: 20px;}
+
+aside{text-align:center;
+	background-color:#ffffff;
+	color:black;
+width:28.5%; font-family:century;
+height:400px;float:left;}
+
+#signup{text-align:center;background:#ffffff;
+border:1px solid black;border-radius:50px;
+width:26%;margin:10px;
+box-shadow: 2px 1px 0px 0px #ff0099;
+margin-left:500px;height:auto;}
+
+input[type="search"] {
+   width: 14%;
+   height: 24px;
+border-radius: 5px;}
+
+input[type="text"] {
+   width: 50%;
+   height: 25px;
+   border: 1px solid #ff0099;
+   border-radius: 5px;
+margin-bottom:5px;}
+
+input[type="password"] {
+   width: 50%;
+   height: 25px;
+   border: 1px solid #ff0099 ;
+   border-radius: 5px;
+}
+
+input[type="email"] {
+   width: 50%;
+   height: 25px;
+   border: 1px solid #ff0099 ;
+   border-radius: 5px;
+}
+
+input[type="date"] {
+   width: 47%;
+   border: 1px solid #ff0099;
+   border-radius: 10px;
+   height:18px;
+padding: 6px;}
+
+input[type="submit"] {
+   width: 12%;
+   border: 1px solid #ffo;
+   border-radius: 5px;
+   background-color:#ff0099;
+padding: 4px;
+margin-top:3px;}
+
+footer{float:right;
+	background-color:#ff0099;
+   color:white;width:95%;
+  margin-top:2px;
+text-align:center;
+width:96%;padding:41px;}

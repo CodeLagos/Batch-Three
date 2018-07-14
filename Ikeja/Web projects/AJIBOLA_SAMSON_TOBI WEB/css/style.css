@@ -1,0 +1,270 @@
+body{
+	background-image: url('../images/blueback.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+header{
+	display:block;
+	background-color:black;
+	color: white;
+	width:100%;
+	height:200px;
+	text-align:center;
+	padding-top:20px;
+}
+p{
+	color: white;
+}
+h1{
+	color: Gold;
+}
+h3{
+	color: Gold;
+}
+footer h3{
+	color:black;
+}
+#site-wrapper h2{
+  color: gold;
+  background-color: navy;
+  height: 40px;
+  font-family: chunkfiveregular;
+  font-size: 40px;
+  font-style: oblique;
+  letter-spacing: 0.2em;
+}
+/* The grid: Four equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 25%;
+    padding: 10px;
+}
+
+/* Style the images inside the grid */
+.column img {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.column img:hover {
+    opacity: 1;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* The expanding image container (positioning is needed to position the close button and the text) */
+.container {
+    position: relative;
+    display: none;
+}
+
+/* Expanding image text */
+#imgtext {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    color: white;
+    font-size: 20px;
+}
+
+/* Closable button inside the image */
+.closebtn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    color: white;
+    font-size: 35px;
+    cursor: pointer;
+}
+.menu{
+	text-align:right;
+	float: right;
+}
+.navbar {
+	text-align: center;
+	width: 100%;
+	background:white;
+	opacity:0.9;
+
+}
+.navbar ul {
+	margin:0;
+	padding: 0;
+	list-style: none;
+	position:relative;
+}
+.navbar ul li a{
+	display: block;
+	padding: 25px;
+	color:black;
+	text-decoration: none;
+	width: 150px;
+}
+.navbar ul:after {
+content: ""; clear:both;
+display:block;
+}
+.navbar ul li {
+	float:left;
+	list-style:none;
+}
+.navbar ul ul {
+	display:none;
+}
+.navbar ul li:hover > ul{
+	display: block;
+}
+.navbar ul li:hover {
+	background:dodgerblue;
+	transition:0.9s;
+}
+.navbar ul li:hover a{
+	color:gold;
+}
+}
+.navbar ul li {
+	background:black;
+	padding:0;
+	margin:0;
+	position: absolute; top: 100%;
+}
+.navbar ul ul li{
+	float: none;
+	position: relative;
+}
+.navbar ul ul li a{
+	padding:25px;
+	color:gold;
+	width:300px;
+	text-align:left;
+}
+.film{
+	background: transparent;
+	overflow:auto;
+	padding:6px;
+	float: left;
+	width::24.9999%;
+}
+.gallery{
+	border: 1px solid #ccc;
+}
+.gallery:hover{
+	border: 0.5px transparent;
+}
+.gallery img{
+	width: 75%;
+	height: auto;
+	float: left;
+}
+.desc{
+	padding: 15px;
+	text-align:center;
+}
+*{
+	box-sizing: border-box;
+}
+/* Style the video: 100% width and height to cover the entire window */
+#myVideo{
+	position: center;
+	right: 0;
+	bottom: 0;
+	width: 75%;
+	padding:20px;
+	float: center;
+	margin-right: auto;
+	margin-left: auto;
+}
+/* Add some content at the bottom of the video/page */
+.content{
+	position: center;
+	bottom: 0;
+	background:none;
+	color:blue;
+	float: center;
+	text-align: center;
+	width: 100%;
+	height: 50%;
+}
+/* Style the button used to pause/play the video */
+#myBtn{
+	width: 200px;
+	font-size: 18px;
+	padding: 10px;
+	background: #000;
+	color: #fff;
+	cursor: pointer;
+}
+#myBtn: hover{
+	background: #ddd;
+	color: black;
+}
+footer{
+  display:block;
+  padding:10px;
+  margin-top:30px;
+  width: 100%;
+  height:210px;
+  float:right;
+  background-color:lightblue;
+  text-align:center;
+  font-size: 15px;
+}
+.fa {
+    padding: 15px;
+    font-size: 30px;
+    width: 50px;
+    text-align: left;
+    text-decoration: none;
+    float: left;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+.src{
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	min-width: 100%;
+	min-height: 100%;
+}
+th {
+    background-color: NONE;
+    color: gold;
+		text-align: left;
+		width: 50px;
+}
+td {
+    height: 50px;
+    vertical-align: bottom;
+}
+table{
+	width: 75%;
+	 border: 1px solid black;
+}
+@media only screen and (max-width: 600px){
+	.film{
+		width: 100%;
+	}
+
+}

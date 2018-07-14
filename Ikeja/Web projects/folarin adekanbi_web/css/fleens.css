@@ -1,0 +1,161 @@
+
+	body{
+			background-image:url('../images/backdrop.jpg');
+			background-size: cover;
+			}
+			h1{
+				color:gold;
+				font-family:chunkfiveregular;
+				font-size:40px;
+				font-style:oblique;
+				letter-spacing:0.2em;
+				font-weight:bold;
+			}
+			#header img{
+				border-radius: 100px;
+				float:left;
+				margin-bottom: 20px;
+			}
+		/*fleens menu bar styling*/
+		#menu ul{
+			list-style-type: none;
+			float: left;
+			margin: 0;
+			padding: 0;
+			position: absolute;
+			opacity: 0.8;
+		}
+		#menu li{
+			display: inline-block;
+			float: left;
+			margin-right: 1px;
+		}
+		#menu li a{
+			display: block;
+			min-width: 140px;
+			height: 50px;
+			text-align: center;
+			line-height: 50px;
+			font-family:helvetica neue;
+			color: #DF7020;
+			background:#FFDEAD;
+			text-decoration: none;
+		}
+		#menu li:hover a{
+			background:#D99678;
+			transition: 0.7;
+		}
+		#menu li:hover ul li a{
+			background: #FFAC47;
+			color: #fff;
+			height: 40px;
+			line-height: 40px;
+		}
+		#menu li:hover ul li a:hover{
+			background: #D99678;
+			color: white;
+			}
+		 li ul{
+			display: none;
+		}
+		#menu li ul li{
+			display: block;
+			float: none;
+		}
+		#menu li ul li a{
+			width:auto;
+			min-width: 100px;
+			padding: 0 20px;
+		}
+		 ul li a:hover + .hidden, .hidden:hover{
+			display: block;
+		}
+		input[type=checkbox]{
+			display:none;
+		}
+		input[type=checkbox]:checked ~ #menu{
+			display: block;
+
+		}
+		.show-menu {
+			font-family: helvetica neue; 
+			text-decoration: blink;
+			color:#fff;
+			background: #C76538;
+			text-align: center;
+			padding: 10px 0;
+			display: none;
+		}
+		@media screen and (max-width: 760px){
+			ul{
+			position: static;
+			display: none;
+			}
+			li{
+				margin-bottom: 1px;
+			}
+			#menu ul li li a{
+				width:100%;
+			}
+			.show-menu{
+				display: block;
+			}
+			#menu body{
+				background-image: none;
+			}
+		}
+		/*fleens  image gallary styling*/
+	  @import url('https://fonts.googleapis.com/css?family=Pacifico');
+.responsive{
+	background: linear-gradient( rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.10));
+	color:#fff;
+	overflow:auto;
+	padding:6px;
+	float:left;
+	width:24;
+	margin-top: 15px;
+	margin-left: 15px;
+	margin-bottom: 10PX;
+	text-align:center;
+}
+
+.sty{
+	background:#ffdead;
+	float:left;
+	text-align:center;
+	margin-bottom:20px;
+	color:#df7020;
+	
+}
+.thumbnail{
+	float:left;
+	margin-left:80px;
+	margin-right:100px;
+	}
+
+		
+		/*fleens footer */
+	footer{
+		clear: both;
+		padding: 10px;
+		margin-top: 0px;
+		color:#DF7020;
+		background-color: #FFDEAD;
+		text-align: center;
+	}
+	.note{
+			clear:both;
+			width:auto;
+			padding:20px;
+			margin-top:8%;
+			text-align: center;
+			background: #ffdead;
+			color:#fd7020;
+		}	
+	.note h2{
+			font-family: chunkfiveregular;
+			font-size:25px;
+		}
+	.note p{
+		font-size: 18px;
+	}

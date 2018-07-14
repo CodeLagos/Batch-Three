@@ -1,0 +1,22 @@
+/** Css file 1 */
+p {
+	font-family:calibri;
+	color:yellow;
+	font-size:20px;
+	font-weight:bold;
+}
+h1{color:blue;
+	text-decoration:underline;
+	font-family:garamond;
+}
+table, th, td {border-collapse:collapse;
+				padding: 15px;
+				text-align:center;
+				border:1px solid black; 
+				border-bottom:1px;solid #ddd;
+				height:30%;
+				width:50%;
+				background-color:#4c4F50;color:white;
+				font-family:comic sans ms;
+				font-size:18px;
+}

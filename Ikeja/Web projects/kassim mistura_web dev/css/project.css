@@ -1,0 +1,79 @@
+body{ color:white;}
+
+
+header{font-family:harrington,calibri;
+width:100%;
+	background-color:steelblue;
+   color:black;
+text-align:center;
+height:115px;}
+
+nav{background-color:steelblue;
+border:1px solid white; width:100%; height:auto;}
+ul li{display:inline;margin-left:20px;
+text-decoration:none;}
+ul li:hover{font-size:30px;}
+
+#search{margin-left:920px;float:left;}
+
+section{margin-right:1px;margin-top:2px;
+	background-color:steelblue;color:black;
+float:left; width:70%;height:600px;}
+
+#image{float:left; margin-left:160px;
+   border-radius:2px;
+margin-bottom:20px;
+box-shadow: 1px 1px 0px 0px black;
+width:120px;text-align:center; 
+margin-top:8px;
+background-color:white;}
+
+aside{
+	color:white;border-right:4px solid steelblue;
+text-align:center;width:29%;height:600px;float:left;}
+
+input[type="search"] {
+   width: 15%;border:1px solid pink;
+   height: 25px;
+border-radius: 5px;}
+
+input[type="text"] {
+   width: 50%;
+   height: 25px;
+   border: 2px solid steelblue;
+   border-radius: 5px;
+margin-bottom:5px;}
+
+input[type="password"] {
+   width: 50%;
+   height: 25px;
+   border: 2px solid steelblue ;
+   border-radius: 5px;
+}
+
+input[type="email"] {
+   width: 50%;
+   height: 25px;
+   border: 2px solid steelblue ;
+   border-radius: 5px;
+}
+
+input[type="date"] {
+   width: 50%;
+   border: 2px solid steelblue;
+   border-radius: 10px;
+   height:23px;}
+
+input[type="submit"] {
+   width: 13%;
+   border-radius: 5px;
+   background-color:steelblue;
+padding: 5px;
+box-shadow: 1px 1px 0px 0px white;
+margin-top:3px;}
+
+footer{float:left; margin-top:2px;
+	background-color:steelblue;color:black;border:2px solid white;
+text-align:center;width:100%;padding:50px;}
+
+

@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+	<html>
+	<head>
+		<title>Aj cinemas</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<meta name="viewport"content="width=device-width,initial-scale=1.0">
+	</head>
+
+	<body>
+		<div id="site-wrapper">
+				<h2><img src="./images/aj.jpg"alt="aj" width="100px" height="100px" align="left"/>A.J CINEMAS</h2><br>
+				<div class="menu">
+				<input type="text" name="text" class="search" placeholder="Enter keyword">
+			<input type="submit" name="submit" class="submit" value="search">
+		</div><br><br>
+			<div class="navbar">
+			<ul>
+				<li><a href ="index.html">Home</a></li>
+				<li><a href ="#">Entertainments</a>
+					<ul>
+						<li><a href="#">Life and Style</a></li>
+						<li><a href="#">Gossips</a></li>
+						<li><a href="#">Movie Reviews</a></li>
+					</ul>
+				<li><a href ="#">Kiddos</a>
+					<ul>
+						<li><a href="#">Cartoon</a></li>
+					</ul>
+				<li><a href ="#">Adventures</a></li>
+				<li><a href="#">Movies</a>
+					<ul>
+						<li><a href="#">American</a></li>
+						<li><a href="#">Asian</a></li>
+						<li><a href="#">African</a></li>
+						<li><a href="#">Indian</a></li>
+				</ul>
+				<li><a href ="#">Contact Us</a>
+					<ul>
+						<li><a href="#">Advertise</a></li>
+						<li><a href="#">Report Errors</a></li>
+						<li><a href="#">About Us</a></li>
+					</ul>
+				</li>
+				<li><a href="#">Portal</a>
+				<ul>
+				<li><a href="login/index.html">Log in</a></li>
+				<li><a href="link/index.html">Sign up</a></li>
+			</ul>
+				</li>
+		</li>
+	</li>
+</li>
+			</ul>
+		</div>
+
+		<p><h3>MOVIES</h3></p>
+				<div class="row">
+  <div class="column">
+    <img src="jungle.jpg" alt="Jungle" onclick="openImg(this);">
+  </div>
+  <div class="column">
+    <img src="godzilla.jpg" alt="Godzilla" onclick="openImg(this);">
+  </div>
+  <div class="column">
+    <img src="monster.jpg" alt="Monster" onclick="openImg(this);">
+  </div>
+  <div class="column">
+    <img src="snowwhite.jpg" alt="Snowwhite" onclick="openImg(this);">
+  </div>
+</div>
+
+<!-- The expanding image container -->
+<div class="container">
+  <!-- Close the image -->
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+
+  <!-- Expanded image -->
+  <img id="expandedImg" style="width:100%">
+
+  <!-- Image text -->
+  <div id="imgtext"></div>
+</div>
+
+				<p><h3>21<sup>st</sup> century WATCH ON MOVIES</h3></p>
+				<P><img src="images/crown.jpg"alt="Crown"width="150"height="150"align="left"/>The Crown is a historical drama web television series, created and principally written by Peter Morgan and produced by Left Bank Pictures and Sony Pictures Television for Netflix. The show is a biographical story about the reign of Queen Elizabeth II of the United Kingdom. The first season covers the period from her marriage to Philip, Duke of Edinburgh in 1947 to the disintegration of her sister Princess Margaret's engagement to Peter Townsend in 1955. The second season covers the period from the Suez Crisis in 1956 through the retirement of the Queen's third Prime Minister, Harold Macmillan, in 1963 to the birth of Prince Edward in 1964. The third season will continue from 1964, covering Harold Wilson's two terms as the Prime Minister until 1976, while the fourth will see Margaret Thatcher's premiership and a focus on Diana, Princess of Wales.</P><br><br>
+
+				<p><img src="images/snowwhite.jpg"alt="snowwhite"width="150"height="150"align="left"/>Snow White and the Huntsman is a 2012 American fantasy film based on the German fairy tale "Snow White" compiled by the Brothers Grimm. The film is the directorial debut of Rupert Sanders, with a screenplay by Evan Daugherty, John Lee Hancock and Hossein Amini, from a screen story by Daugherty. In the film's retelling of the tale, Snow White grows up imprisoned by her evil stepmother, Queen Ravenna, a powerful sorceress. After Snow White escapes into the forest, Ravenna tells Eric, the Huntsman that she will bring back his dead wife if he captures Snow White.
+
+				The cast includes Kristen Stewart as Snow White, Charlize Theron as Queen Ravenna, Chris Hemsworth as Eric, the huntsman, Sam Claflin as William, Snow White's childhood friend, and Bob Hoskins as the dwarf seer in his final film appearances. The film received two Academy Award nominations for Best Visual Effects and Best Costume Design at the 85th Academy Awards. It was a success at the box office, earning $396.6 million worldwide against a $170 million budget. Although critics praised the production design, visual effects, Theron and Hemsworth's performances, musical score, and action sequences; Stewart and Claflin's performances received mixed reviews, and the screenplay was heavily criticized.</p><br>
+
+				<p><img src="images/avengers.jpg"alt="Avengers"width="150"height="150"align="left"/>Avengers: Infinity War is a 2018 American superhero film based on the Marvel Comics superhero team the Avengers, produced by Marvel Studios and distributed by Walt Disney Studios Motion Pictures. It is the sequel to 2012's The Avengers and 2015's Avengers: Age of Ultron, and the nineteenth film in the Marvel Cinematic Universe (MCU). The film is directed by Anthony and Joe Russo, written by Christopher Markus and Stephen McFeely, and features an ensemble cast including Robert Downey Jr., Chris Hemsworth, Mark Ruffalo, Chris Evans, Scarlett Johansson, Benedict Cumberbatch, Don Cheadle, Tom Holland, Chadwick Boseman, Paul Bettany, Elizabeth Olsen, Anthony Mackie, Sebastian Stan, Danai Gurira, Letitia Wright, Dave Bautista, Zoe Saldana, Josh Brolin, and Chris Pratt. In Avengers: Infinity War, the Avengers and the Guardians of the Galaxy attempt to stop Thanos from amassing the all-powerful Infinity Stones.</p><br><br>
+
+
+				<head>
+					<title>Adding HTML5 Video</title>
+				</head>
+				<h3>WATCH <b>THE CROWN</b> OFFICIAL-TRAILER</h3>
+				<div class="content">
+				<video preload controls loop id="myvideo">
+					<source src="https://youtu.be/JWtnJjn6ng0"poster="images/crown.jpg"width="400"height="300">
+					<p>A video trailer of The Crown </p>
+				</video>
+			</div>
+
+				<h3>JULY CINEMA SCHEDULE AND TICKET PRICE</h3>
+				<table border="2" bgcolor="#efefef">
+					<tr>
+					<th width="150"></th>
+					<th>week 1</th>
+					<th>Week 2</th>
+					<th>Week 3</th>
+					<th>Week 4</th>
+				</tr>
+				<tr>
+					<th scope="row">Date:</th>
+					<td>1<sup>st</sup> - 7<sup>th</sup></td>
+					<td>9<sup>th</sup> - 14<sup>th</sup></td>
+					<td>15<sup>th</sup> - 21<sup>st</sup></td>
+					<td>23<sup>rd</sup> -30<sup>th</sup></td>
+				</tr>
+				<tr>
+					<th scope="row">Time:</th>
+					<td>3-6pm</td>
+					<td>6-8pm</td>
+					<td>9am-12:30pm</td>
+					<td>1-3:30pm</td>
+				</tr>
+				<tr>
+					<th scope="row">Movie Title:</th>
+					<td>Game of Thrones 7</td>
+					<td>Avengers</td>
+					<td>Money bank</td>
+					<td>Housewife</td>
+				</tr>
+				<tr>
+					<th scope="row">Ticket prize:</th>
+					<td>5$</td>
+					<td>7$</td>
+					<td>5$</td>
+					<td>10$</td>
+				</tr>
+			</table><br><br>
+			<div class="colo">
+<footer>
+<address>
+<h3>please<a href="mailto:timileyinajibola@gmail.com">
+contact us</a> if you would like more information.</h3>
+<h3>Area 2 shopping complex, area 2, section 2,garki-Abuja.</h3>
+</address>
+	<h3>Copyright&copy 2018 AJIBSON.<br>All rights reserved</h3>
+	<!-- Add icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- Add font awesome icons -->
+<a href="www.facebook.com/samson.ajibola3" class="fa fa-facebook"></a>
+<a href="#" class="fa fa-twitter"></a>
+<a href="#" class="fa fa-linkedin"></a>
+	</footer>
+</div>
+</div>
+	</body>
+	</html>
