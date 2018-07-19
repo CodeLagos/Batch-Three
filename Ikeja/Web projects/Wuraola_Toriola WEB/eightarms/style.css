@@ -1,0 +1,165 @@
+body{
+	padding:0;
+	margin: 0;
+	font-family: 'EB Garamond', serif;
+}
+/*tile style*/
+#tile{
+	width: 100%;
+	padding: 20px 0;
+	margin: 0;
+	height: 550px;
+}
+#tile2{
+	width: 93%;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+.arra{
+	float: left;
+	padding: -7px 0;
+	font-size: 22px;
+}
+.nopad{
+	padding: 0;
+	margin: 0;
+}
+.lists{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+nav{
+	float: right;
+	font-size: 16px;
+	font-weight: lighter;
+	padding-top: 15px;
+}
+nav ul li{
+	float: left;
+	display: block;
+	position: relative;
+	margin-right: 15px;
+}
+nav ul li a{
+	text-decoration: none;
+	display: block;
+	position: relative;
+	padding: 10px;
+	color: #000000;
+}
+nav ul li a:hover{
+	color: #fb2867;
+}
+#us{
+	width: 70%;
+	margin: 8% auto;
+	text-align: center;
+	padding: 10px;
+	font-size: 330%;
+}
+/*pix style*/
+#pix{
+	width: 100%;
+	display: block;
+	height: 700px;
+}
+.pics{
+	width: 97%;
+	margin: 30px auto;
+}
+.col2{
+	width: 45%;
+	display: block;
+	padding: 10px 15px 0;
+}
+.col{
+	width:50%;
+	display: block;
+	padding: 10px 15px 0;
+}
+.coll{
+	width:40%;
+	display: block;
+	padding: 10px 15px 0;
+}
+.col3{
+	width: 30%;
+	display: block;
+	padding: 10px 15px 0;
+}
+.left{
+	float: left;
+}
+.right{
+	float: right;
+}
+/*work style*/
+#work{
+	width: 100%;
+	margin-bottom: 25%;
+}
+#work2{
+	width: 70%;
+	margin:35% auto 10%;
+	text-align:center;
+	font-size: 250%;
+	padding: 10px;
+}
+#work3{
+	width: 97%;
+	margin: 30px auto;
+}
+#work3 p{
+	margin-bottom: 20%;
+}
+.view{
+	width: 20%;
+	color: #fff;
+	background-color: #fb0435;
+	border-radius: 150px;
+	border: none;
+	margin-top: 25px;
+	padding: 10px 20px;
+	font-weight: normal;
+	font-size: 16px;
+}
+/*insta style*/
+#insta{
+	width: 100%;
+	margin-top: 40%;
+}
+.instag{
+	width: 97%;
+	margin: 30px auto;
+}
+#insta h4{
+	margin-bottom: 10%;
+	text-align: center;
+}
+.col6{
+	width: 14%;
+	padding: 10px 15px 0;
+	display: block;
+}
+/*footer style*/
+#footer{
+	width: 100%;
+	border-top: 1px solid #cccace;
+	font-size: 20px;
+	margin-top: 35%;
+	margin-bottom: 20%;
+}
+.footerobj{
+	width: 95%;
+	margin: 60px auto;
+}
+.footerobj li{
+	float: left;
+	margin-top: 20px;
+	margin-right: 10px;
+}
+.footerobj a{
+	text-decoration: none;
+	color:#000;
+}

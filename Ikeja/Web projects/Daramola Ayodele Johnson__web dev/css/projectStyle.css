@@ -1,0 +1,103 @@
+body{
+	background-color:black;
+}
+
+#site-wrapper{
+text-align: center;
+display: block;
+background-color: black;
+color:gray;
+width: auto;
+height: auto;
+margin-right:auto;
+margin-left: auto;
+}
+
+.nav-bar{
+	margin:10px -5px 10px -5px;
+	background-color:lightsteelblue;
+	color:gray;
+}
+
+.nav-bar .group{
+	padding:10px;
+}
+
+.nav-bar ul li{
+	text-decoration: none;
+	list-style-type: none;
+	display: inline;
+	padding: 20px;
+}
+
+.nav-bar ul li a{
+	text-decoration:none;
+	color:black; 
+}
+
+header{
+display: block;
+background-color:black;
+color:red;
+margin-top:0;
+width: 120%;
+height: 100px;
+padding-top: 15px;
+}
+.images{
+	margin-bottom:25%; 
+}
+
+.one{
+	float:left;
+	padding:25px;
+}
+
+.two{
+	float:left;
+	padding:25px;
+}
+
+.three{
+	float:left;
+	padding:25px;
+}
+
+.four{
+	float:left;
+	padding:25px;
+}
+
+.five{
+	float:left;
+	padding:25px;
+}
+
+.six{
+	float:left;
+	padding:25px;
+}
+ 
+ article table{
+ 	display:block;
+ 	background-color:midnightblue;
+ 	color:lightsteelblue;
+ 	margin-top: 40px;
+ 	width:550;
+ }
+
+footer {
+	margin:8px -2px 8px -2px;
+	background-color:lightsteelblue;
+	color:gray;
+	padding:20px;
+	margin-top: 40px;
+}
+
+
+.footer ul li{
+	text-decoration: none;
+	list-style-type: none;
+	display: inline;
+	padding: 20px;
+}

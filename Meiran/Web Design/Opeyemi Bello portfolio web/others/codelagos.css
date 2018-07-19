@@ -1,0 +1,49 @@
+body{
+background-image:url(image/linkedin-back.jpg);
+background-repeat: repeat-y;
+background-attachment: fixed;	
+}
+.codelagos{
+	font-size: 100px;
+	text-align: center;
+}
+#blue {
+	color: blue;
+}
+
+#red {
+	color: red;
+}
+
+#yellow {
+	color: yellow;
+}
+
+.codelagosbox{
+height:300px;
+width:350px;
+background:#efefef;
+padding:28px;
+margin:20px;
+left:460px;
+top: 120px;
+position:absolute;
+}
+
+#label{
+text-align:left;	 
+font-size:18px;
+}
+ .submit{
+font-size:12px;
+width:350px; 
+height:35px;  
+background:#0077b5;
+font-size:16px; 
+font-weight:bold;  
+border-radius:5px 5px 5px 5px;
+border-style:solid; 
+border-color: gray;
+cursor:pointer;
+}
+ 

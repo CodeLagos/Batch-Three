@@ -1,0 +1,270 @@
+
+.a{
+    align-items: center;
+    text-align: center;
+    padding: px;
+    font-size: "7";
+    position: relative; top: -70;
+    relative; left: 10;
+}
+.b{
+    align-items: center;
+    text-align: center;
+    padding: 3px;
+    position: relative; top: -65;
+    relative; left: 10;
+}
+.c{
+    align-items: center;
+    text-align: center;
+    padding: 3px;
+    position: relative; top: -65;
+    relative; left: 10;
+}
+.d{
+    align-items: center;
+    text-align: center;
+    padding: 3px;
+    position: relative; top: -65;
+    relative; left: 10;
+}
+::placeholder{/*Chrome, Firefox, Opera, Safari 10.1+*/
+    color: gainsboro;
+    font-size: 12px;
+    opacity: 1;/*Firefox*/
+}
+
+:-ms-input-placeholder { /*IE 10+ */
+    color: gainsboro;
+    font-size: 12px;
+}
+:-ms-input-placeholder { /* Internet Exploere Microsoft Edge*/
+    color: gainsboro;
+    font-size: 12px;
+}
+
+.select-items div,.select-selected {
+    cursor: pointer;
+}
+
+
+#footer {
+    background-color:whitesmoke;
+    padding: 1px;
+    margin: 10px;
+    column-gap: normal;
+    font-family: sans-serif;
+    position:relative;bottom:90;
+    }
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    float: right;
+    width: 100%;
+    font-family: sans-serif;
+    text-decoration: none;
+    
+    
+}
+
+body{
+    width: 100%;
+    display: -wedkit-box;
+    -webkit-box-pack: center;
+}
+li{
+    display: inline;
+    float: left;
+    border-right: 5px solid #bbb;
+    text-decoration: none;
+    width: 215px;
+    position: relative;left:5
+    
+}
+
+li:last-child {
+    border-right: none;
+    text-decoration: none;
+    
+}
+li a{
+    display: block;
+    padding: 20px 25px;
+    background-color: gray;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    
+
+}
+a{
+    display: block;
+    padding: 8px;
+        text-decoration: none;
+    
+}
+
+li a:hover {
+    background-color: greenyellow;
+    text-decoration: none;
+    
+}
+.logo{
+    position: relative;left: 570;
+}
+
+
+* {box-sizing: border-box}
+
+
+.container {
+  padding: 16px;
+    margin: auto;
+    text-align: center;
+    
+}
+
+
+
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 40%;
+    height: 50px;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+    display: block;
+    margin: auto
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+
+.registerbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  margin: auto;
+  border: none;
+    border-radius: 50px;
+  cursor: pointer;
+  width: 40%;
+  opacity: 0.9;
+    position:relative;top:-80
+}
+
+.registerbtn:hover {
+  opacity:1;
+}
+
+
+a {
+  color: dodgerblue;
+}
+
+
+.signin {
+    text-align: center;
+    position:relative;bottom:90
+}
+
+.fb {
+  background-color: #3B5998;
+  color: white;
+    width: 40%;
+    height: 50;
+    border-radius: 50px;
+    margin: auto;
+    text-align: center;
+    
+}
+.month{
+    width: 180px;
+    height: 50px;
+    float: left;
+    display: inherit;
+    position: relative;right: -395px;
+    left;
+  margin: auto;
+    background: #f1f1f1;
+    border: none;
+}
+
+.day{
+    width: 150px;
+    height: 50px;
+    float: left;
+    display: inherit;
+    position: relative;left: 410px;
+    left;
+  margin: auto;
+    background: #f1f1f1;
+    border: none;
+}
+.year{
+    width: 175px;
+    height: 50px;
+    float: left;
+    display: inherit;
+    position: relative;left: 420px;
+    left;50
+  margin: auto;
+    background: #f1f1f1;
+    display: 
+    border: none;
+}
+
+.birth1{
+    position: relative;right: 150;
+    display: inline;
+        }
+.click{position:relative;right:-14
+    
+}
+p.info1{
+    position:relative;right: 110;
+    top: -15
+        
+}
+
+p.info2{
+    position:relative;right: 27;
+    top: -46
+        
+}
+
+p.info3{
+    position:relative;right: 145;
+    top: -55;
+    display: block;
+        
+}
+.link1{position:relative;right: -170;
+    top: -26;
+    
+}
+
+.link2{position:relative;right: -250;
+    top: -27;
+    
+}
+
+p.DOB{
+    position: relative;left: -215;
+    top: 9
+}
+

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+	<html>
+	<head>
+			<title>login</title>
+			<link rel="stylesheet" type="text/css" href="css/fleens.css" />
+	<style>
+		form {
+			    border:transparent;
+			    width: 600px;
+			    height: 460px;
+			    margin-right: auto;
+			    margin-left: auto;
+			    background-color: #fff;
+			    color:#fd7020;
+			    margin-top: 100px;
+			    margin-bottom: 50px;
+			}
+			input[type=text], input[type=password] {
+			    width: 100%;
+			    padding: 12px 20px;
+			    margin: 8px 0;
+			    display: inline-block;
+			    border: 4px solid #ffe75c;
+			    box-sizing: border-box;
+			}
+
+			button {
+			    background-color: #f4a460;
+			    color: white;
+			    padding: 14px 20px;
+			    margin: 8px 0;
+			    border: none;
+			    cursor: pointer;
+			    width: 100%;
+			    margin-bottom: 100px;
+			}
+
+			button:hover {
+			    opacity: 0.8;
+			}
+
+			.imgcontainer {
+			    text-align: center;
+			    margin: 24px 0 12px 0;
+			}
+
+			img.avatar {
+			    width: 40%;
+			    border-radius: 50%;
+			    margin-top: 10px;
+			}
+
+			.container {
+			    padding: 16px;
+			}
+			span.psw {
+			    float: right;
+			    padding-top: 16px;
+				color:black;
+			}
+			@media screen and (max-width: 300px) {
+			    span.psw {
+			        display: block;
+			        float: none;
+			    
+			    
+			  
+			    }
+			}
+
+
+		</style>
+	</head>
+	<div id="header">
+		<b><h1>FLEENS</h1></b>
+	   </div>
+
+
+	<ul id ="menu">
+			<li><a href="#"> Home</a></li>
+			<li><a href="#"> Products</a>
+				<ul class= "hidden">
+					<li><a href="#"> mens wear</a></li>
+					<li><a href="#"> womens wear</a></li>
+					<li><a href="#"> children</a></li>
+					<li><a href="#"> summer</a></li>
+					<li><a href="#"> winter</a></li>
+				</ul>
+			</li>
+			<li><a href="#">About</a></li>
+			<li><a href="#">Contact</a></li>
+			<li><a href="#"> Services</a>
+				<ul class="hidden">
+					<li><a href="#"> Dress matching</a></li>
+					<li><a href="#"> fleens native dress</a></li>
+					<li><a href="#"> children </a></li>
+					<li><a href="#"> summer</a></li>
+					<li><a href="#"> winter</a></li>
+				</ul>
+			</li>
+			<li><a href="signup.html">sign up</a></li>
+			<li><a href="login.html">Login</a></li>
+			<li><a href="login.html">fleens</a></li>
+		</ul>
+
+
+	<body>
+
+		<form action="action_page.php">
+		  <div class="imgcontainer">
+		   	 <img src="./images/avatar2.png" alt="Avatar" class="avatar">
+		  </div>
+
+		  <div class="container">
+		    <label for="uname"><b>Username</b></label>
+		    <input type="text" placeholder="Enter Username" name="uname" required>
+
+		    <label for="psw"><b>Password</b></label>
+		    <input type="password" placeholder="Enter Password" name="psw" required>
+
+		    <button type="submit">Login</button>
+		  </div> 
+		</form>
+	</body>
+	<footer>
+		<address>
+		<h3> &copy 2018 fleens wear copyright</h3>
+		<h4>privacy  terms  copyright policy   contact</h4>
+		</address>
+	</footer>
+
+	</html>

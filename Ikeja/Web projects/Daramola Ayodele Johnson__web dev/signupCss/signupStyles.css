@@ -1,0 +1,116 @@
+body{
+	background-color:black;
+}
+
+header{
+display: block;
+color:red;
+margin-top:-2px;
+}
+
+.nav-bar{
+	margin:10px -10px 10px -10px;
+	background-color:lightsteelblue;
+	color:gray;
+}
+
+.nav-bar .group{
+	padding:10px;
+}
+
+.nav-bar ul li{
+	text-decoration: none;
+	list-style-type: none;
+	display: inline;
+	padding: 50px;
+}
+
+.nav-bar ul li a{
+	text-decoration:none;
+	color:black; 
+}
+
+section{
+	text-align:center;
+	color:gray;
+	margin-top: 10%;
+}
+
+section h1{
+	margin-top: 30px;
+	margin-bottom:10px;
+}
+section h4{
+	margin-bottom: -6%;
+}
+
+#login-form{
+	background-color: white;
+	color:gray;
+	margin-left: 35%;
+	margin-top: 7%;
+	height: 700px;
+	width: 40%
+}
+
+#login-form .box{
+	padding:30px 10px 30px 10px;
+	text-align: left;
+}
+
+#login-form.box.form-input{
+	padding:40px;
+	text-align: right;
+	color:blue;
+}
+
+input[type="text"] {
+	width:400px;
+	height: :25px;
+	border:1px solid blue;
+	border-radius: 5px;
+	margin-bottom: 20px;
+	padding:10px;
+}
+
+input[type="password"] {
+	width:400px;
+	height: :25px;
+	border:1px solid blue;
+	border-radius: 5px;
+	margin-bottom: 20px;
+	padding:10px;
+}
+
+input[type="email"] {
+	width:400px;
+	border:1px solid blue;
+	border-radius: 5px;
+	margin-bottom: 20px;
+	padding:10px;
+}
+
+input[type="submit"] {
+	width:200px;
+	border:1px solid blue;
+	border-radius: 5px;
+	background-color: green;
+	padding: 8px;
+	color:white;
+}
+
+footer {
+	margin:8px -2px 8px -2px;
+	background-color:lightsteelblue;
+	color:gray;
+	padding:20px;
+	margin-top: 40px;
+}
+
+
+.footer ul li{
+	text-decoration: none;
+	list-style-type: none;
+	display: inline;
+	padding: 20px;
+}

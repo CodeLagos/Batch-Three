@@ -1,0 +1,99 @@
+
+* { box-sizing : border-box }
+/* Full-width input fields */
+input[type=text], input[type=password] {
+width : 100% ;
+padding: 15px ;
+margin : 5px 0 22px 0 ;
+display: inline-block ;
+border : none;
+background : #f1f1f1 ;
+text align: center;
+}
+/* Add a background color when the inputs get focus */
+input[type=text]:focus, input[type=password]:focus
+{
+background-color : white;
+outline: green;
+}
+/* Set a style for all buttons */
+button {
+background-color : white;
+color : black;
+padding: 14px 20px ;
+margin : 8px 0 ;
+cursor : pointer ;
+width : 45% ;
+opacity: 0.9 ;
+border :2px solid;
+outline-color: black;
+}
+button:hover {
+opacity: 1 ;
+}
+/* Extra styles for the create account button */
+.createaccountbtn {
+padding: 14px 20px ;
+background-color :green;
+margin: 8px 0;
+border : none;
+cursor : pointer ;
+width : 100% ;
+opacity: 0.9 
+}
+
+
+/* The Modal (background) */
+.modal {
+display: none; /* Hidden by default */
+position: fixed ; /* Stay in place */
+z-index : 1 ; /* Sit on top */
+left: 0 ;
+top: 0 ;
+width : 100% ; /* Full width */
+height : 100% ; /* Full height */
+overflow: auto; /* Enable scroll if needed */
+background-color : #474e5d ;
+padding-top : 50px ;
+}
+/* Modal Content/Box */
+.modal-content {
+background-color : #fefefe ;
+margin : 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+border : 1px solid #888 ;
+width : 80% ; /* Could be more or less, depending on screen size */
+}
+/* Style the horizontal ruler */
+hr {
+border : 1px solid #f1f1f1 ;
+margin-bottom : 25px ;
+}
+
+
+span{
+	color: blue;
+}
+div{
+	width: 500px;
+	margin: auto;
+	text-align: center;
+	img: center;
+}
+
+		
+.prosignup{
+	background-color: gold;
+	color:black;
+}
+.logo{
+	color :green;
+margin : 5% auto 15% auto; /* 20% from the top, 15% from the bottom and centered */
+width : 80% ; /* Could be more or less, depending on screen size */
+padding-top : 50px ;
+text-align: center;
+}
+
+
+
+
+

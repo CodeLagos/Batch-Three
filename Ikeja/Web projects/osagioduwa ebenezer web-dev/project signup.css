@@ -1,0 +1,246 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+
+body{
+	display: block;
+	width: 100%;
+	font-family: arial, helvetica, sans-serif; 
+	box-sizing: border-box;
+}
+
+.leftside{
+	float: left;
+	width: 40%;
+	background: url(images/mon.jpg) no-repeat center center;
+	height: 680px;
+	color: white;
+	position: fixed;
+	top: 0px;
+	text-align: left;
+	overflow: scroll;
+}
+
+.leftside:after{
+	clear: both;
+}
+
+.title{
+	width: 400px;
+	margin-left: 40px;
+	margin-top: 90px;
+	margin-bottom: 10px;
+	font-size: 50px;
+	font-weight: bolder;
+	font-family: sans-serif;
+	
+}
+.subtitle{
+	margin-top: 0px;
+	margin-left: 40px;
+	width: 450px;
+	line-height: 1.3em;
+	font-size:  25px;
+	font-weight: lighter;
+
+}
+
+.credit{
+	margin-top: 160px;
+	margin-left: 40px;
+
+}
+
+.logo{
+	width: 80px;
+	height: 80px;
+	margin: 20px 0px 0px 40px;
+	
+}
+
+.rightside{
+	float: right;
+	height: 850px;
+	background: white;
+	width: 60%;
+	position: relative;
+	text-align: center;
+	margin: auto;
+	padding: 10px;
+}
+
+.join{
+	padding: 25px;
+	margin: 20px;
+
+}
+.join h4{
+	font-size: 50px;
+	font-weight: bold;
+	padding: 10px;
+	font-family: arial, helvetica, sans-serif;
+}
+.join> p{
+	font-weight: lighter;
+	padding: 0px;
+	margin: 0px;
+}
+
+.join p>a{
+	color: silver;
+}
+.join p>a:hover{
+	color:#333;
+}
+
+.facebooklogo{
+	height:15px;
+	width: 15px;
+}
+button{
+	width: 70%;
+	margin: 60px auto 0px auto ;
+	text-align: center;
+	background-color: steelblue;
+	padding: 10px 30px 10px 30px;
+	font-size: 16px;
+	border-radius: 5px;
+	border: 1px solid black;
+	color: white;
+	display: block;
+}
+
+button:hover,
+button:focus{
+	background-color: rgb(9 77 134);
+	transition:250ms;
+}
+.rightside .or{
+	margin: 20px;
+	font-variant: small-caps;
+	font-size: 12px;
+}
+
+#form{
+	width: 80%;
+	text-align: left;
+	margin: auto;
+	overflow: hidden;
+}
+
+.namerow{	
+	width: 100%;
+	margin-left: 40px;
+	margin-right: 40px;
+	display: block;
+}
+
+.firstcol input[type="text"]{
+	width: 250px;
+	height: 40px;
+	border: 1px solid black;
+	border-radius:5px;	
+	padding: 5px;
+}
+
+.lastcol input[type="text"]{
+	width: 250px;
+	height: 40px;
+	border: 1px solid black;
+	border-radius:5px;
+	padding: 5px;	
+}
+
+.firstcol{
+	float: left;
+	padding: 0px 30px 10px 0px;
+}	
+
+.lastcol{
+	float: left;
+	padding: 0px 0px 10px 10px;
+}
+
+label{
+	display: block;
+	padding: 10px 0px 10px 0px;
+}
+
+.clr{
+	clear:both;
+}
+
+.E-mail, .Username, .password{
+	margin-bottom: 20px;
+}
+
+.E-mail input[type="text"]{
+	width: 540px;
+	height: 40px;
+	border: 1px solid black;
+	border-radius:5px;
+	padding: 5px;	
+}
+.Username input[type="text"]{
+	width: 540px;
+	height: 40px;
+	border: 1px solid black;
+	border-radius:5px;
+	padding: 5px;	
+}
+.password input[type="password"]{
+	width: 540px;
+	height: 40px;
+	border: 1px solid black;
+	border-radius:5px;
+	padding: 5px;	
+}
+input[type="submit"]{
+	width: 540px;
+	height: 40px;
+	border: 1px solid black;
+	border-radius:5px;
+	padding: 5px;
+	margin: 10px 40px 10px 40px;
+	background: #333;
+	color: white;	
+}
+.submit:hover{
+	background: black;
+}
+
+
+span{
+	color:silver;
+}
+
+span>a{
+	margin: 10px auto 0px auto ;
+	color: silver;
+}
+span>a:hover{
+	color: black;
+}
+
+p>span{
+	text-align: center;
+}
+
+.center{
+	margin-left: 40px;
+	margin-right: 40px;
+}
+@media(max-width: 600px){
+	.leftside{
+		width: 100%;
+		float:none;
+		position: fixed;
+	}
+	.rightside{
+		width: 100%;
+		float: none;
+		position: relative;
+	}
+}

@@ -1,0 +1,65 @@
+body{
+	background-image: url("../loginImages/login.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.nav-bar{
+	margin:-10px -8px 0px -8px;
+	background-color: black;
+}
+
+.nav-bar .group{
+	padding:10px;
+}
+
+.nav-bar ul li{
+	text-decoration: none;
+	list-style-type: none;
+	display: inline;
+	color: white;
+	padding: 10px;
+}
+
+
+#login-form{
+	background-color: white;
+	margin-left: 35%;
+	margin-top: 15%;
+	height: 220px;
+	width: 30%
+}
+
+#login-form .box{
+	padding:10px 0px 10px 0px;
+	text-align: center;
+}
+
+#login-form.box.form-input{
+	padding:10px;
+}
+
+input[type="text"] {
+	width:200px;
+	height: :25px;
+	border:1px solid blue;
+	border-radius: 5px;
+	margin-bottom: 10px;
+}
+
+input[type="password"] {
+	width:200px;
+	height: :25px;
+	border:1px solid blue;
+	border-radius: 5px;
+	margin-bottom: 10px;
+}
+
+input[type="submit"] {
+	width:200px;
+	border:1px solid blue;
+	border-radius: 5px;
+	background-color: steelblue;
+	padding: 8px;
+	color:white;
+}

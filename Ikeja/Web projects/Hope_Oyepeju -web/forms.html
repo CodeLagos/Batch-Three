@@ -1,0 +1,76 @@
+<!doctype html>
+<html>
+	<head>
+		<title>
+			The text shadow and form page
+		</title>
+		<style>
+		h2{
+			text-shadow: 2px 2px 5px green;
+			}
+		h1{text-shadow:2px 2px 5px green; 0 0 10px red;
+		}
+		div.card{
+			width: 250px;
+			box-shadow:0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,19);
+			text-align: center;
+			}
+div.new{
+	box-shadow:10px 10px 5px grey;
+	}
+div.polaroid{
+			width:250px;
+			box-shadow:0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,19);
+			text-align: center;
+			}
+div.header{
+			background-color:#4CAF50;
+			color:white;
+			padding:10px;
+			font-size:40px;
+			}
+div.container{
+			padding: 10px;
+			}
+		</style>
+	</head>
+	<body>
+	<h2>Cards</h2>
+	
+	<p>The box-shadow property can be used to create paper like cards:</p>
+	<div class="card">
+
+	<div class="header">
+		<h1>1</h1>
+		</div>
+	<div class="container">
+	<p>JUNE 17, 2018</p>
+	</div>
+	</div>
+	<br>
+	<h2>Polaroid Images</h2>
+	<p>The box-shadow property can be used to create paper like cards:</p>
+	<div class="polaroid">
+	<img src="images/windows desktop.jpg" alt="Window Desktop" style="width: 100%">
+	<div class="container">
+	<p>form of computer</p>
+	</div>
+	</div>
+	<br>
+	<div class="new" style="background-color:lightblue; width:350px; padding; 15px;">
+	<h1>This is a heading</h1>
+	<p>This is a paragraph</p>
+	<p>This is another paragraph</p>
+	</div>
+		<form action="/login" method="post">
+		<h1>Reply to Ad</h1>
+		<p>use the following form to respond to the Advert:</p>
+		<label>To:
+		<input type="textbox" name="to" size="20" maxlength="30">
+		</label>
+		<label>To:
+		<input type="textbox">
+		</label>
+		</form>
+	</body>
+</html>
